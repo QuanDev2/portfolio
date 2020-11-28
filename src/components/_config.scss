@@ -1,0 +1,28 @@
+// imports
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+
+// Config
+$font-stack: Roboto, sans-serif;
+$color-bg: #eee;
+$color-primary: #333;
+
+body {
+    font-family: $font-stack;
+    color:$color-primary;
+    background-color: $color-bg;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+    &:visited {
+        color: $color-primary;
+    }
+}

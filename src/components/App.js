@@ -1,5 +1,5 @@
-// import './components/App.css';
-import NavBar from './utils/NavBar'
+import './App.css';
+import Header from './utils/Header'
 // import SocialMediaPole from './components/utils/SocialMediaPole.js'
 // import HomePage from './components/homePage/HomePage.js'
 // import AboutMe from './components/aboutMe/AboutMe.js'
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="app">
       {/* Nav bar */}
-      <NavBar />
+      <Header />
       
       {/* Social media pole */}
       {/* <SocialMediaPole /> */}

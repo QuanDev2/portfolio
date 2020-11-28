@@ -1,0 +1,15 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+
+  // Logo
+
+  // list items
+  ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+  }
+}
