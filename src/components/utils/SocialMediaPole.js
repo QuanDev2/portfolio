@@ -19,7 +19,7 @@ function SocialMediaPole() {
           <a href="#" target="_blank"><IconGmail /></a>
         </li>
         <li>
-          <a href="#" target="_blank"><IconTwitter /></a>
+          <a href="https://twitter.com/QuanCfc17" target="_blank"><IconTwitter /></a>
         </li>
       </ul>
 

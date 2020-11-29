@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 body {
   font-family: Roboto, sans-serif;
-  color: #DCDCDC;
+  color: #dcdcdc;
   background-color: #454040;
   padding: 0;
   margin: 0;
@@ -14,11 +16,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: #DCDCDC;
+  color: #dcdcdc;
 }
 
 a:visited {
-  color: #DCDCDC;
+  color: #dcdcdc;
 }
 
 .Header {
@@ -52,13 +54,34 @@ a:visited {
           justify-content: space-evenly;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+  color: #dcdcdc;
+  background-color: #454040;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+a:visited {
+  color: #dcdcdc;
+}
+
 .SocialMediaContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -71,15 +94,43 @@ a:visited {
 .SocialMediaContainer svg {
   width: 20px;
   height: 20px;
+  fill: lightblue;
 }
 
-.SocialMediaContainer npm
-a:last-child::after {
+.SocialMediaContainer ul {
+  margin: 0;
+}
+
+.SocialMediaContainer ul li {
+  margin-top: 1.2rem;
+}
+
+.SocialMediaContainer ul li:last-child::after {
   content: "";
   display: block;
   width: 1px;
-  height: 30px;
-  color: red;
+  height: 150px;
+  background-color: green;
+  margin: 1rem auto 0;
+}
+
+.SocialMediaContainer #IconGitHub {
+  fill: white;
+}
+
+.SocialMediaContainer #IconGitHub:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.SocialMediaContainer #IconLinkedIn {
+  fill: #0a66c2;
+}
+
+.SocialMediaContainer #IconTwitter {
+  fill: #1da1f3;
 }
 
 body {

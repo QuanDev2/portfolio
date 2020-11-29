@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+body {
+  font-family: Roboto, sans-serif;
+  color: #dcdcdc;
+  background-color: #454040;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+a:visited {
+  color: #dcdcdc;
+}
+
 .SocialMediaContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,6 +40,14 @@
 .SocialMediaContainer svg {
   width: 20px;
   height: 20px;
+  fill: lightblue;
+}
+
+.SocialMediaContainer svg:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .SocialMediaContainer ul {
@@ -32,7 +63,19 @@
   display: block;
   width: 1px;
   height: 150px;
-  background-color: green;
+  background-color: lightseagreen;
   margin: 1rem auto 0;
+}
+
+.SocialMediaContainer #IconGitHub {
+  fill: white;
+}
+
+.SocialMediaContainer #IconLinkedIn {
+  fill: #0a66c2;
+}
+
+.SocialMediaContainer #IconTwitter {
+  fill: #1da1f3;
 }
 /*# sourceMappingURL=SocialMediaPole.css.map */
