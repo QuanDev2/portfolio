@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 body {
   font-family: Roboto, sans-serif;
-  color: #333;
-  background-color: #eee;
+  color: #DCDCDC;
+  background-color: #454040;
   padding: 0;
   margin: 0;
 }
@@ -13,13 +14,17 @@ ul {
 
 a {
   text-decoration: none;
+  color: #DCDCDC;
 }
 
 a:visited {
-  color: #333;
+  color: #DCDCDC;
 }
 
 .Header {
+  position: fixed;
+  left: 0;
+  right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,6 +37,11 @@ a:visited {
   padding: 0rem 2rem;
 }
 
+.Header .Logo {
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+}
+
 .Header ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,5 +50,39 @@ a:visited {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.SocialMediaContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  left: 50px;
+  bottom: 0px;
+}
+
+.SocialMediaContainer svg {
+  width: 20px;
+  height: 20px;
+}
+
+.SocialMediaContainer npm
+a:last-child::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 30px;
+  color: red;
+}
+
+body {
+  height: 2000px;
 }
 /*# sourceMappingURL=App.css.map */

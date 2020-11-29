@@ -1,0 +1,32 @@
+.SocialMediaContainer {
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  // height: 150px;
+  left: 50px;
+  bottom: 0px;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  ul {
+    margin: 0;
+
+    li {
+      margin-top: 1.2rem;
+    }
+    
+    li:last-child::after {
+      content: "";
+      display: block;
+      width: 1px;
+      height: 150px;
+      background-color: green;
+      margin: 1rem auto 0;
+    }
+  }
+}

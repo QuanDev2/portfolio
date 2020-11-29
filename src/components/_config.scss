@@ -1,11 +1,11 @@
 // imports
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
 // Config
 $font-stack: Roboto, sans-serif;
-$color-bg: #eee;
-$color-primary: #333;
+$color-bg: #454040;
+$color-primary: #DCDCDC;
 
 body {
     font-family: $font-stack;
@@ -21,7 +21,7 @@ ul {
 
 a {
     text-decoration: none;
-
+    color: $color-primary;
     &:visited {
         color: $color-primary;
     }

@@ -1,11 +1,10 @@
 import React from 'react'
 import './Header.css'
-
 function Header() {
   return (
     <div className="Header">
       <div className="Logo">
-        Quan Nguyen
+      <a href='#'>Quan Nguyen</a>
       </div>
       <div className="Header_Items" >
         <ul>

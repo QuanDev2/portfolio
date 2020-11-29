@@ -1,0 +1,38 @@
+.SocialMediaContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  left: 50px;
+  bottom: 0px;
+}
+
+.SocialMediaContainer svg {
+  width: 20px;
+  height: 20px;
+}
+
+.SocialMediaContainer ul {
+  margin: 0;
+}
+
+.SocialMediaContainer ul li {
+  margin-top: 1.2rem;
+}
+
+.SocialMediaContainer ul li:last-child::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 150px;
+  background-color: green;
+  margin: 1rem auto 0;
+}
+/*# sourceMappingURL=SocialMediaPole.css.map */

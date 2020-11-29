@@ -1,11 +1,18 @@
 .Header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0rem 2rem;
 
   // Logo
-
+  .Logo {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+  }
   // list items
   ul {
     display: flex;
@@ -13,3 +20,5 @@
     justify-content: space-evenly;
   }
 }
+
+

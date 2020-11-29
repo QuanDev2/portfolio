@@ -1,5 +1,6 @@
 import './App.css';
-import Header from './utils/Header'
+import Header from './utils/Header';
+import SocialMediaPole from './utils/SocialMediaPole'
 // import SocialMediaPole from './components/utils/SocialMediaPole.js'
 // import HomePage from './components/homePage/HomePage.js'
 // import AboutMe from './components/aboutMe/AboutMe.js'
@@ -16,7 +17,7 @@ function App() {
       <Header />
       
       {/* Social media pole */}
-      {/* <SocialMediaPole /> */}
+      <SocialMediaPole />
 
       {/* homepage */}
       {/* <HomePage /> */}
