@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './utils/Header';
 import SocialMediaPole from './utils/SocialMediaPole'
+import HomePage from './homePage/HomePage'
 // import SocialMediaPole from './components/utils/SocialMediaPole.js'
 // import HomePage from './components/homePage/HomePage.js'
 // import AboutMe from './components/aboutMe/AboutMe.js'
@@ -15,12 +16,12 @@ function App() {
     <div className="app">
       {/* Nav bar */}
       <Header />
-      
+
       {/* Social media pole */}
       <SocialMediaPole />
 
       {/* homepage */}
-      {/* <HomePage /> */}
+      <HomePage />
 
       {/* about me */}
       {/* <AboutMe /> */}

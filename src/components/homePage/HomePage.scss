@@ -1,0 +1,31 @@
+@import "../config";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700;900&display=swap");
+
+.Info__Container {
+  .Info {
+    height: 90vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 500px;
+
+    // text styling
+    .Hi {
+      font-size: 1.5rem;
+      color: darken($color-accent-1, 15);
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 5rem;
+      font-family: "Noto Sans KR", sans-serif;
+      // line-height: 5rem;
+    }
+    p {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+  }
+}

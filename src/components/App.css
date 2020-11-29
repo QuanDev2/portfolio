@@ -1,8 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
-body {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+* {
   font-family: Roboto, sans-serif;
   color: #dcdcdc;
   background-color: #454040;
@@ -21,116 +19,6 @@ a {
 
 a:visited {
   color: #dcdcdc;
-}
-
-.Header {
-  position: fixed;
-  left: 0;
-  right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0rem 2rem;
-}
-
-.Header .Logo {
-  font-size: 2rem;
-  font-family: 'Merriweather', serif;
-}
-
-.Header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 500px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-body {
-  font-family: Roboto, sans-serif;
-  color: #dcdcdc;
-  background-color: #454040;
-  padding: 0;
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #dcdcdc;
-}
-
-a:visited {
-  color: #dcdcdc;
-}
-
-.SocialMediaContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: fixed;
-  left: 50px;
-  bottom: 0px;
-}
-
-.SocialMediaContainer svg {
-  width: 20px;
-  height: 20px;
-  fill: lightblue;
-}
-
-.SocialMediaContainer ul {
-  margin: 0;
-}
-
-.SocialMediaContainer ul li {
-  margin-top: 1.2rem;
-}
-
-.SocialMediaContainer ul li:last-child::after {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 150px;
-  background-color: green;
-  margin: 1rem auto 0;
-}
-
-.SocialMediaContainer #IconGitHub {
-  fill: white;
-}
-
-.SocialMediaContainer #IconGitHub:hover {
-  -webkit-transform: translateY(-4px);
-          transform: translateY(-4px);
-  -webkit-transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-.SocialMediaContainer #IconLinkedIn {
-  fill: #0a66c2;
-}
-
-.SocialMediaContainer #IconTwitter {
-  fill: #1da1f3;
 }
 
 body {
