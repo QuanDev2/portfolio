@@ -4,6 +4,8 @@
   font-family: Roboto, sans-serif;
   color: #dcdcdc;
   background-color: #454040;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -19,5 +21,58 @@ a {
 
 a:visited {
   color: #dcdcdc;
+}
+
+#AboutMe {
+  height: calc(100vh - 56px);
+  padding-top: 12rem;
+}
+
+#AboutMe .Content {
+  max-width: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 350px;
+}
+
+#AboutMe .Content .Content__Left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 3rem;
+}
+
+#AboutMe .Content .Content__Left img {
+  width: 300px;
+  border: 1px solid #dcdcdc;
+  border-radius: 50%;
+}
+
+#AboutMe .Content .Content__Right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=AboutMe.css.map */

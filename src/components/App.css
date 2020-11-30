@@ -4,6 +4,8 @@
   font-family: Roboto, sans-serif;
   color: #dcdcdc;
   background-color: #454040;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -19,9 +21,5 @@ a {
 
 a:visited {
   color: #dcdcdc;
-}
-
-body {
-  height: 2000px;
 }
 /*# sourceMappingURL=App.css.map */

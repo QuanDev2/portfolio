@@ -2,16 +2,21 @@
 // @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;0,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
-// Config
+
+// Global variables
 $font-stack: Roboto, sans-serif;
 $color-bg: #454040;
 $color-primary: #dcdcdc;
 $color-icon: lightblue;
 $color-accent-1: aqua;
+$header-height: 56px;
+
+// Global config
 * {
   font-family: $font-stack;
   color: $color-primary;
   background-color: $color-bg;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -32,4 +37,8 @@ a {
 @mixin animation-icon {
   transform: translateY(-4px);
   transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@mixin set-page-height {
+  height: calc(100vh - 56px);
 }

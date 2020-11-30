@@ -5,6 +5,8 @@
   font-family: Roboto, sans-serif;
   color: #dcdcdc;
   background-color: #454040;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -22,8 +24,8 @@ a:visited {
   color: #dcdcdc;
 }
 
-.Info__Container .Info {
-  height: 90vh;
+.Welcome__Container .Welcome {
+  height: 100vh;
   width: 60%;
   margin: 0 auto;
   display: -webkit-box;
@@ -39,22 +41,26 @@ a:visited {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding-bottom: 500px;
+  padding-bottom: 100px;
 }
 
-.Info__Container .Info .Hi {
+.Welcome__Container .Welcome .Hi {
   font-size: 1.5rem;
   color: #00b3b3;
 }
 
-.Info__Container .Info h1 {
+.Welcome__Container .Welcome h1 {
   font-weight: 700;
   font-size: 5rem;
   font-family: "Noto Sans KR", sans-serif;
 }
 
-.Info__Container .Info p {
+.Welcome__Container .Welcome h1:nth-child(3) {
+  color: #676767;
+}
+
+.Welcome__Container .Welcome p {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
-/*# sourceMappingURL=HomePage.css.map */
+/*# sourceMappingURL=Welcome.css.map */
