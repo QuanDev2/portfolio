@@ -1,0 +1,25 @@
+.Portfolio__Card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+.Portfolio__Card img {
+  height: 200px;
+  width: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 2rem;
+}
+
+.Portfolio__Card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.Portfolio__Card p {
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=Portfolio__Card.css.map */

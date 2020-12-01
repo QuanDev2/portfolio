@@ -1,0 +1,20 @@
+@import '../config';
+
+#Portfolio {
+  @include set-page-height();
+  h1 {
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+  }
+
+  .Portfolio__Content {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 1rem auto;
+    height: 75%;
+  }
+}

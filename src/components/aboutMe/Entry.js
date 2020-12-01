@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Entry.css'
 function Entry({ title, p1, p2, p3 }) {
   return (
     <div className="Content__Entry">

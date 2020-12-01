@@ -1,6 +1,7 @@
 import './App.css';
 import HomePage from './homePage/HomePage'
 import AboutMe from './aboutMe/AboutMe'
+import Portfolio from './portfolio/Portfolio';
 
 
 
@@ -14,16 +15,9 @@ function App() {
       <AboutMe />
 
       {/* portfolio */}
-      {/* <Portfolio /> */}
+      <Portfolio />
 
-      {/* resume */}
-      {/* <Resume /> */}
 
-      {/* contact */}
-      {/* <Contact /> */}
-
-      {/* footer */}
-      {/* <Footer />  */}
 
     </div>
   );
