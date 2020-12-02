@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700;600;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap");
+* {
+  font-family: Roboto, sans-serif;
+  color: #dcdcdc;
+  background-color: #454040;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+a:visited {
+  color: #dcdcdc;
+}
+
+#Contact {
+  min-height: 100vh;
+}
+
+#Contact h1 {
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+  padding-top: 6.5rem;
+  font-size: 3rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+#Contact .Content {
+  text-align: center;
+}
+
+#Contact .Content p {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+}
+
+#Contact .Content .btn-contact {
+  border: 1px solid #eee;
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+#Contact .Content .btn-contact:hover {
+  background-color: #d5d5d5;
+  color: #454040;
+}
+/*# sourceMappingURL=Contact.css.map */

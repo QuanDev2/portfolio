@@ -1,7 +1,8 @@
 // imports
 // @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;0,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700;600;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;500;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700;600;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap');
 
 // Global variables
 $font-stack: Roboto, sans-serif;
@@ -9,6 +10,7 @@ $color-bg: #454040;
 $color-primary: #dcdcdc;
 $color-icon: lightblue;
 $color-accent-1: aqua;
+$color-btn-bg: #eee;
 $header-height: 56px;
 
 // Global config
@@ -45,14 +47,16 @@ a {
 }
 
 @mixin set-page-height {
-  height: 100vh;
+  min-height: 100vh;
 }
 
-@mixin set-pageTitle-position {
+@mixin set-pageTitle {
   h1 {
     margin-left: 10rem;
     margin-bottom: 3rem;
     padding-top: 6.5rem;
+    font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
     // margin-top: 4rem;
   }
 }

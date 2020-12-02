@@ -1,7 +1,8 @@
-@import "../config";
+@import '../config';
 
 #Resume {
-  @include set-pageTitle-position();
+  @include set-pageTitle();
+  @include set-page-height();
 
   .Resume__Frame {
     width: 100%;

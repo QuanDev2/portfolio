@@ -1,8 +1,8 @@
-@import "../config";
+@import '../config';
 
 #Portfolio {
   @include set-page-height();
-  @include set-pageTitle-position();
+  @include set-pageTitle();
   // padding-top: 4rem;
   .Portfolio__Content {
     display: flex;
