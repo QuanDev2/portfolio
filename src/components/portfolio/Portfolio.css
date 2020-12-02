@@ -24,13 +24,13 @@ a:visited {
 }
 
 #Portfolio {
-  height: calc(100vh - 56px);
+  height: 100vh;
 }
 
 #Portfolio h1 {
   margin-left: 10rem;
   margin-bottom: 3rem;
-  padding-top: 2rem;
+  padding-top: 6.5rem;
 }
 
 #Portfolio .Portfolio__Content {
@@ -47,5 +47,12 @@ a:visited {
   max-width: 80%;
   margin: 1rem auto;
   height: 75%;
+}
+
+#Portfolio .Portfolio__Content img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 /*# sourceMappingURL=Portfolio.css.map */

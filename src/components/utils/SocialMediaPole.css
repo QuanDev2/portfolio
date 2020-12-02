@@ -69,15 +69,15 @@ a:visited {
   margin: 1rem auto 0;
 }
 
-.SocialMediaContainer #IconGitHub {
+.SocialMediaContainer .IconGitHub {
   fill: white;
 }
 
-.SocialMediaContainer #IconLinkedIn {
+.SocialMediaContainer .IconLinkedIn {
   fill: #0a66c2;
 }
 
-.SocialMediaContainer #IconTwitter {
+.SocialMediaContainer .IconTwitter {
   fill: #1da1f3;
 }
 /*# sourceMappingURL=SocialMediaPole.css.map */

@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700;600;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;500;900&display=swap");
+* {
+  font-family: Roboto, sans-serif;
+  color: #dcdcdc;
+  background-color: #454040;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+a:visited {
+  color: #dcdcdc;
+}
+
 .Portfolio__Card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,5 +46,36 @@
 .Portfolio__Card p {
   margin-bottom: 0.3rem;
   line-height: 1.5;
+}
+
+.Portfolio__Card .Icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Portfolio__Card .Icons a {
+  cursor: pointer;
+}
+
+.Portfolio__Card .Icons svg {
+  margin-top: 0.8rem;
+  width: 1.3rem;
+  margin-right: 1rem;
+}
+
+.Portfolio__Card .Icons svg:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.Portfolio__Card .Icons .IconGitHub {
+  fill: white;
+}
+
+.Portfolio__Card .Icons .IconExternal {
+  fill: lightblue;
 }
 /*# sourceMappingURL=Portfolio__Card.css.map */

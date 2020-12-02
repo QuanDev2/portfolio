@@ -1,3 +1,5 @@
+@import "../config";
+
 .Portfolio__Card {
   display: flex;
   // justify-content: space-between;
@@ -18,5 +20,29 @@
   p {
     margin-bottom: 0.3rem;
     line-height: 1.5;
+  }
+
+  .Icons {
+    display: flex;
+    a {
+      cursor: pointer;
+    }
+    svg {
+      margin-top: 0.8rem;
+      width: 1.3rem;
+      margin-right: 1rem;
+
+      &:hover {
+        @include animation-scale(1.2);
+      }
+    }
+
+    .IconGitHub {
+      fill: white;
+    }
+
+    .IconExternal {
+      fill: lightblue;
+    }
   }
 }

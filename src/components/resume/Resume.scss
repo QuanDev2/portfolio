@@ -1,0 +1,15 @@
+@import "../config";
+
+#Resume {
+  @include set-pageTitle-position();
+
+  .Resume__Frame {
+    width: 100%;
+    display: flex;
+  }
+  iframe {
+    height: 1165px;
+    width: 920px;
+    margin: auto;
+  }
+}

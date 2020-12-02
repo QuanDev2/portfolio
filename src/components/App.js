@@ -2,6 +2,7 @@ import './App.css';
 import HomePage from './homePage/HomePage'
 import AboutMe from './aboutMe/AboutMe'
 import Portfolio from './portfolio/Portfolio';
+import Resume from './resume/Resume';
 
 
 
@@ -17,6 +18,8 @@ function App() {
       {/* portfolio */}
       <Portfolio />
 
+      {/* Resume */}
+      <Resume />
 
 
     </div>

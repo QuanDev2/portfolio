@@ -13,7 +13,7 @@
     height: 20px;
     fill: $color-icon;
     &:hover {
-      @include animation-icon();
+      @include animation-up();
     }
   }
 
@@ -34,13 +34,13 @@
     }
   }
 
-  #IconGitHub {
+  .IconGitHub {
     fill: white;
   }
-  #IconLinkedIn {
+  .IconLinkedIn {
     fill: #0a66c2;
   }
-  #IconTwitter {
+  .IconTwitter {
     fill: #1da1f3;
   }
 }
