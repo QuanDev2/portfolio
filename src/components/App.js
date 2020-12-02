@@ -6,7 +6,6 @@ import Resume from './resume/Resume';
 import Contact from './contact/Contact';
 
 
-
 function App() {
   return (
     <div className="app">

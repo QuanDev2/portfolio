@@ -20,4 +20,9 @@
     width: 500px;
     justify-content: space-evenly;
   }
+
+  // active links on navbar
+  .active {
+    @include animation-scale(1.2);
+  }
 }
