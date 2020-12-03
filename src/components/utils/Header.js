@@ -8,8 +8,6 @@ function Header() {
   useEffect(() => {
     const controller = new AbortController();
     let ignore = false;
-    // document.getElementById("Nav__Home").classList.add("active");
-
     const navItems = document.getElementsByClassName("NavItem");
     navItems[0].classList.add("active");
     // console.log(navItems);
@@ -27,24 +25,6 @@ function Header() {
         }
 
       }
-      //   console.log(elem.hash);
-      //   // if (pos < aboutMeOffset) {
-      //   //   document.getElementById("Nav__Home").classList.add("active")
-      //   // } else if (pos < portfolioOffset) {
-      //   //   document.getElementById("Nav__AboutMe").classList.add("active")
-      //   // } else if (pos < resumeOffset) {
-      //   //   console.log("Portfolio");
-      //   // } else if (pos < contactOffset) {
-      //   //   console.log("Resume");
-      //   // } else {
-      //   //   console.log("Contact");
-      //   // }
-      // });
-
-
-
-
-
     });
     return () => {
       // cleanup
@@ -56,7 +36,7 @@ function Header() {
   return (
     <div className="Header">
       <div className="Logo">
-        <a href='#'>Quan Nguyen</a>
+        <a href='#HomePage'>Quan Nguyen</a>
       </div>
       <div className="Header_Items" >
         <ul>
