@@ -7,6 +7,7 @@ import Contact from './contact/Contact';
 
 
 function App() {
+  document.title = 'Quan Nguyen';
   return (
     <div className="app">
       {/* homepage */}

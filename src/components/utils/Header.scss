@@ -1,3 +1,5 @@
+@import "../config";
+
 .Header {
   position: fixed;
   left: 0;
@@ -12,7 +14,7 @@
   .Logo a {
     font-size: 2rem;
     font-weight: 600;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
   }
   // list items
   ul {
@@ -23,6 +25,13 @@
 
   // active links on navbar
   .active {
-    @include animation-scale(1.2);
+    color: lightblue;
+    font-weight: 600;
+    &::after {
+      content: "";
+      width: 100%;
+      height: 3px;
+      background: red;
+    }
   }
 }

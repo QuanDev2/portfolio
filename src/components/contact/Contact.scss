@@ -1,4 +1,4 @@
-@import '../config';
+@import "../config";
 
 #Contact {
   @include set-pageTitle();
@@ -18,9 +18,12 @@
       border-radius: 5px;
       font-size: 1.2rem;
       display: inline-block;
+      color: darken(lightblue, 20);
+      border-color: darken(lightblue, 20);
       &:hover {
         background-color: darken($color-btn-bg, 10);
         color: $color-bg;
+        border-color: $color-bg;
       }
       // background-color: $color-btn-bg;
     }

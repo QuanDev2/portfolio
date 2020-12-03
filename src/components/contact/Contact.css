@@ -34,7 +34,7 @@ a:visited {
   margin-bottom: 3rem;
   padding-top: 6.5rem;
   font-size: 3rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 #Contact .Content {
@@ -53,10 +53,13 @@ a:visited {
   border-radius: 5px;
   font-size: 1.2rem;
   display: inline-block;
+  color: #5fb3ce;
+  border-color: #5fb3ce;
 }
 
 #Contact .Content .btn-contact:hover {
   background-color: #d5d5d5;
   color: #313131;
+  border-color: #313131;
 }
 /*# sourceMappingURL=Contact.css.map */
