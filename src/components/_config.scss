@@ -1,8 +1,5 @@
-// imports
-// @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;0,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700;600;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;500;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap');
 
 // Global variables
 $font-stack: Roboto, sans-serif;
@@ -57,7 +54,7 @@ a {
     margin-bottom: 3rem;
     padding-top: 6.5rem;
     font-size: 3rem;
-    font-family: "Roboto Slab", serif;
+    font-family: 'Roboto Slab', serif;
     // margin-top: 4rem;
   }
 }
