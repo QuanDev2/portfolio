@@ -11,21 +11,15 @@ function Header() {
     // document.getElementById("Nav__Home").classList.add("active");
 
     const navItems = document.getElementsByClassName("NavItem");
+    navItems[0].classList.add("active");
     // console.log(navItems);
 
     window.addEventListener("scroll", (event) => {
       let pos = document.documentElement.scrollTop || document.body.scrollTop;
       pos += 1;
-
       for (let i = 0; i < navItems.length; i++) {
-
         let hash = navItems[i].hash.substr(1)
         let elem = document.getElementById(hash);
-
-        console.log(pos);
-
-        console.log(elem.offsetTop);
-        console.log(elem.offsetTop + elem.offsetHeight);
         navItems[i].classList.remove("active");
         if (elem.offsetTop <= pos && pos < elem.offsetTop + elem.offsetHeight) {
           console.log(elem);

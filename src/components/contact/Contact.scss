@@ -15,15 +15,16 @@
       border: 1px solid $color-btn-bg;
       padding: 1rem 3rem;
       margin-top: 2rem;
-      border-radius: 5px;
+      border-radius: 10px;
       font-size: 1.2rem;
       display: inline-block;
       color: darken(lightblue, 20);
       border-color: darken(lightblue, 20);
       &:hover {
-        background-color: darken($color-btn-bg, 10);
-        color: $color-bg;
-        border-color: $color-bg;
+        // background-color: darken($color-btn-bg, 10);
+        color: $color-btn-bg;
+        border-color: $color-btn-bg;
+        @include animation-scale(1.02);
       }
       // background-color: $color-btn-bg;
     }
