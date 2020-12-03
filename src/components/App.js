@@ -5,7 +5,6 @@ import Portfolio from './portfolio/Portfolio';
 import Resume from './resume/Resume';
 import Contact from './contact/Contact';
 
-
 function App() {
   document.title = 'Quan Nguyen';
   return (
@@ -24,6 +23,9 @@ function App() {
 
       {/* Contact page */}
       <Contact />
+
+      {/* Footer */}
+
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../utils/Footer'
 import './Contact.css'
 
 
@@ -13,6 +14,9 @@ function Contact() {
         <p>Just drop me an email and I'll get back to you as soon as possible.</p>
         <a className="btn-contact" href="mailto:qnguyen.dev2@gmail.com">Say Hi</a>
       </div>
+      <Footer />
+
+
     </div>
   )
 }

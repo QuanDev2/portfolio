@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700;600;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;500;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
 * {
   font-family: Roboto, sans-serif;
   color: #dcdcdc;
@@ -38,23 +39,23 @@ a:visited {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 3rem;
 }
 
 .Header .Logo a {
   font-size: 2rem;
-  font-weight: 600;
-  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-family: "Parisienne", cursive;
 }
 
 .Header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 500px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  width: 400px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Header .active {

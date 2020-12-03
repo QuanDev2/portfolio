@@ -1,4 +1,5 @@
 @import "../config";
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
 
 .Header {
   position: fixed;
@@ -8,24 +9,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 3rem;
 
   // Logo
   .Logo a {
     font-size: 2rem;
-    font-weight: 600;
-    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-family: "Parisienne", cursive;
   }
   // list items
   ul {
     display: flex;
-    width: 500px;
-    justify-content: space-evenly;
+    width: 400px;
+    justify-content: space-between;
   }
 
   // active links on navbar
   .active {
-    color: darken(lightblue, 20);
+    color: $color-accent-1;
     font-weight: 600;
   }
 }
