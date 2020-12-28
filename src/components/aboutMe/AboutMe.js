@@ -1,5 +1,4 @@
 import React from 'react'
-import './AboutMe.css'
 import Entry from './Entry'
 import './Entry.css'
 import profile from '../../assets/profile-picture.jpg'

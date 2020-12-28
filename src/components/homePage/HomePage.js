@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../utils/Header'
 import Welcome from './Welcome'
 import SocialMediaPole from '../utils/SocialMediaPole'
 
@@ -10,7 +9,6 @@ const Style = {
 function HomePage() {
   return (
     <div id="HomePage" style={Style}>
-      <Header />
       <SocialMediaPole />
       <Welcome />
     </div>

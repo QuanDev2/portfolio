@@ -4,11 +4,19 @@ import AboutMe from './aboutMe/AboutMe'
 import Portfolio from './portfolio/Portfolio';
 import Resume from './resume/Resume';
 import Contact from './contact/Contact';
+import Header from './utils/Header';
+import SocialMediaPole from './utils/SocialMediaPole';
 
 function App() {
   document.title = 'Quan Nguyen';
   return (
     <div className="app">
+      {/* Header */}
+      <Header />
+
+      {/* Social media pole */}
+      <SocialMediaPole />
+
       {/* homepage */}
       <HomePage />
 

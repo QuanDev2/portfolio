@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Header.css'
+// import './Header.css'
 
 
 function Header() {
@@ -8,11 +8,9 @@ function Header() {
   useEffect(() => {
     const controller = new AbortController();
     let ignore = false;
-    // document.getElementById("Nav__Home").classList.add("active");
 
     const navItems = document.getElementsByClassName("NavItem");
     navItems[0].classList.add("active");
-    // console.log(navItems);
 
     window.addEventListener("scroll", (event) => {
       let pos = document.documentElement.scrollTop || document.body.scrollTop;
@@ -22,29 +20,10 @@ function Header() {
         let elem = document.getElementById(hash);
         navItems[i].classList.remove("active");
         if (elem.offsetTop <= pos && pos < elem.offsetTop + elem.offsetHeight) {
-          console.log(elem);
           navItems[i].classList.add("active");
         }
 
       }
-      //   console.log(elem.hash);
-      //   // if (pos < aboutMeOffset) {
-      //   //   document.getElementById("Nav__Home").classList.add("active")
-      //   // } else if (pos < portfolioOffset) {
-      //   //   document.getElementById("Nav__AboutMe").classList.add("active")
-      //   // } else if (pos < resumeOffset) {
-      //   //   console.log("Portfolio");
-      //   // } else if (pos < contactOffset) {
-      //   //   console.log("Resume");
-      //   // } else {
-      //   //   console.log("Contact");
-      //   // }
-      // });
-
-
-
-
-
     });
     return () => {
       // cleanup

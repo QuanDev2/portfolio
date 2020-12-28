@@ -1,1 +1,252 @@
 // Imports
+@import "config";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700;900&display=swap");
+
+//////////////////////////////////////////
+// Header
+/////////////////////
+.Header {
+  position: fixed;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 3rem;
+
+  // Logo
+  .Logo a {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  // list items
+  ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+  }
+
+  // active links on navbar
+  .active {
+    color: $color-accent-1;
+    font-weight: 600;
+  }
+}
+
+////////////////////////////////////////////////
+// Social Media Pole
+////////////////////
+.SocialMediaContainer {
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  // height: 150px;
+  left: 50px;
+  bottom: 0px;
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: $color-icon;
+    &:hover {
+      @include animation-up();
+    }
+  }
+
+  ul {
+    margin: 0;
+
+    li {
+      margin-top: 1.2rem;
+    }
+
+    li:last-child::after {
+      content: "";
+      display: block;
+      width: 1px;
+      height: 150px;
+      background-color: lightseagreen;
+      margin: 1rem auto 0;
+    }
+  }
+
+  .IconGitHub {
+    fill: white;
+  }
+  .IconLinkedIn {
+    fill: lighten(#0a66c2, 20);
+  }
+  .IconTwitter {
+    fill: #1da1f3;
+  }
+}
+
+///////////////////////////////////////
+// HomePage
+/////////////
+
+.Welcome__Container {
+  .Welcome {
+    height: 100vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 100px;
+
+    // text styling
+    .Hi {
+      font-size: 2rem;
+
+      color: $color-accent-1;
+      // color: $color-accent-1;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 5rem;
+      // font-family: "Noto Sans KR", sans-serif;
+      // line-height: 5rem;
+      &:nth-child(3) {
+        color: gray;
+      }
+    }
+    p {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+///////////////////////////////////////////////////
+// AboutMe page
+/////////////////
+#AboutMe {
+  @include set-page-height();
+  // display: flex;
+  padding-top: 12rem;
+
+  .Content {
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+
+    .Content__Left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-right: 3rem;
+
+      img {
+        width: 300px;
+        border: 1px solid $color-primary;
+        border-radius: 50%;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-top: 1rem;
+      }
+    }
+
+    .Content__Right {
+      display: flex;
+      flex-direction: column;
+      // justify-content: space-between;
+    }
+  }
+}
+
+/////////////////////////////////////////////
+// Portfolio page
+////////////////////
+
+#Portfolio {
+  @include set-page-height();
+  @include set-pageTitle();
+  // padding-top: 4rem;
+  .Portfolio__Content {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 1rem auto;
+    height: 75%;
+
+    img:hover {
+      @include animation-scale(1.1);
+    }
+  }
+}
+
+///////////////////////////////////
+// Resume page
+/////////////////
+
+#Resume {
+  @include set-pageTitle();
+  @include set-page-height();
+
+  .Resume__Frame {
+    width: 100%;
+    display: flex;
+  }
+  iframe {
+    height: 1165px;
+    width: 920px;
+    margin: auto;
+  }
+}
+
+////////////////////////////////////////
+// Contact page
+///////////////////
+#Contact {
+  @include set-pageTitle();
+  @include set-page-height();
+  .Content {
+    text-align: center;
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.5rem;
+    }
+    .btn-contact {
+      border: 1px solid $color-btn-bg;
+      padding: 1rem 3rem;
+      margin-top: 2rem;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      display: inline-block;
+      color: $color-accent-1;
+      border-color: $color-accent-1;
+      &:hover {
+        // background-color: darken($color-btn-bg, 10);
+        color: $color-btn-bg;
+        border-color: $color-btn-bg;
+        @include animation-scale(1.02);
+      }
+      // background-color: $color-btn-bg;
+    }
+  }
+}
+
+/////////////////////////////////////////////////////
+// Footer
+///////////////
+#Footer {
+  text-align: center;
+  margin-top: 420px;
+  p {
+    color: lightblue;
+    // font-family: "Roboto Slab", serif;
+    margin-top: 0.35rem;
+  }
+}

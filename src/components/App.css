@@ -1,1 +1,322 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700;900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  color: #dcdcdc;
+  background-color: #313131;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+a:visited {
+  color: #dcdcdc;
+}
+
+.Header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem 3rem;
+}
+
+.Header .Logo a {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.Header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Header .active {
+  color: #5fb3ce;
+  font-weight: 600;
+}
+
+.SocialMediaContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  left: 50px;
+  bottom: 0px;
+}
+
+.SocialMediaContainer svg {
+  width: 20px;
+  height: 20px;
+  fill: lightblue;
+}
+
+.SocialMediaContainer svg:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.SocialMediaContainer ul {
+  margin: 0;
+}
+
+.SocialMediaContainer ul li {
+  margin-top: 1.2rem;
+}
+
+.SocialMediaContainer ul li:last-child::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 150px;
+  background-color: lightseagreen;
+  margin: 1rem auto 0;
+}
+
+.SocialMediaContainer .IconGitHub {
+  fill: white;
+}
+
+.SocialMediaContainer .IconLinkedIn {
+  fill: #3d99f5;
+}
+
+.SocialMediaContainer .IconTwitter {
+  fill: #1da1f3;
+}
+
+.Welcome__Container .Welcome {
+  height: 100vh;
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 100px;
+}
+
+.Welcome__Container .Welcome .Hi {
+  font-size: 2rem;
+  color: #5fb3ce;
+}
+
+.Welcome__Container .Welcome h1 {
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.Welcome__Container .Welcome h1:nth-child(3) {
+  color: gray;
+}
+
+.Welcome__Container .Welcome p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+#AboutMe {
+  min-height: 100vh;
+  padding-top: 12rem;
+}
+
+#AboutMe .Content {
+  max-width: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 350px;
+}
+
+#AboutMe .Content .Content__Left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 3rem;
+}
+
+#AboutMe .Content .Content__Left img {
+  width: 300px;
+  border: 1px solid #dcdcdc;
+  border-radius: 50%;
+}
+
+#AboutMe .Content .Content__Left h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+#AboutMe .Content .Content__Right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Portfolio {
+  min-height: 100vh;
+}
+
+#Portfolio h1 {
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+  padding-top: 6.5rem;
+  font-size: 3rem;
+}
+
+#Portfolio .Portfolio__Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 80%;
+  margin: 1rem auto;
+  height: 75%;
+}
+
+#Portfolio .Portfolio__Content img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#Resume {
+  min-height: 100vh;
+}
+
+#Resume h1 {
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+  padding-top: 6.5rem;
+  font-size: 3rem;
+}
+
+#Resume .Resume__Frame {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Resume iframe {
+  height: 1165px;
+  width: 920px;
+  margin: auto;
+}
+
+#Contact {
+  min-height: 100vh;
+}
+
+#Contact h1 {
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+  padding-top: 6.5rem;
+  font-size: 3rem;
+}
+
+#Contact .Content {
+  text-align: center;
+}
+
+#Contact .Content p {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+}
+
+#Contact .Content .btn-contact {
+  border: 1px solid #eee;
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  display: inline-block;
+  color: #5fb3ce;
+  border-color: #5fb3ce;
+}
+
+#Contact .Content .btn-contact:hover {
+  color: #eee;
+  border-color: #eee;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#Footer {
+  text-align: center;
+  margin-top: 420px;
+}
+
+#Footer p {
+  color: lightblue;
+  margin-top: 0.35rem;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,5 +1,9 @@
+.Content__Entry {
+  margin-bottom: 2rem;
+}
+
 .Content__Entry h3 {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.3rem;
 }
 
 .Content__Entry p {

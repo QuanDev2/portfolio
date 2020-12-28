@@ -1,5 +1,5 @@
 import React from 'react'
-import './SocialMediaPole.css'
+// import './SocialMediaPole.css'
 import IconGitHub from './icons/github'
 import IconGmail from './icons/gmail'
 import IconLinkedin from './icons/linkedin'

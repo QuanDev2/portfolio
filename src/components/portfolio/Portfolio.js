@@ -1,5 +1,5 @@
 import React from 'react'
-import './Portfolio.css'
+// import './Portfolio.css'
 import ImgFoodCard from '../../assets/project-foodcart.png'
 import ImgAirBnb from '../../assets/project-airbnb.png'
 import ImgTextbook from '../../assets/project-textbook.png'
