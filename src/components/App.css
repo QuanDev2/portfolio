@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Open+Sans:wght@300;400&display=swap");
 * {
-  font-family: "Inter", sans-serif;
-  color: #dcdcdc;
-  background-color: #313131;
+  font-family: "Open Sans", sans-serif;
+  color: #ebebeb;
+  background-color: #222831;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
@@ -17,11 +16,15 @@ ul {
 
 a {
   text-decoration: none;
-  color: #dcdcdc;
+  color: #ebebeb;
 }
 
 a:visited {
-  color: #dcdcdc;
+  color: #ebebeb;
+}
+
+.app {
+  position: relative;
 }
 
 .Header {
@@ -42,7 +45,8 @@ a:visited {
 
 .Header .Logo a {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 100;
+  font-family: "Noto Sans JP", sans-serif, sans-serif;
 }
 
 .Header ul {
@@ -56,7 +60,7 @@ a:visited {
 }
 
 .Header .active {
-  color: #5fb3ce;
+  color: #28a498;
   font-weight: 600;
 }
 
@@ -72,6 +76,7 @@ a:visited {
       -ms-flex-direction: column;
           flex-direction: column;
   position: fixed;
+  z-index: 2;
   left: 50px;
   bottom: 0px;
 }
@@ -79,7 +84,7 @@ a:visited {
 .SocialMediaContainer svg {
   width: 20px;
   height: 20px;
-  fill: lightblue;
+  fill: #28a498;
 }
 
 .SocialMediaContainer svg:hover {
@@ -102,7 +107,7 @@ a:visited {
   display: block;
   width: 1px;
   height: 150px;
-  background-color: lightseagreen;
+  background-color: #28a498;
   margin: 1rem auto 0;
 }
 
@@ -116,45 +121,6 @@ a:visited {
 
 .SocialMediaContainer .IconTwitter {
   fill: #1da1f3;
-}
-
-.Welcome__Container .Welcome {
-  height: 100vh;
-  width: 60%;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  padding-bottom: 100px;
-}
-
-.Welcome__Container .Welcome .Hi {
-  font-size: 2rem;
-  color: #5fb3ce;
-}
-
-.Welcome__Container .Welcome h1 {
-  font-weight: 700;
-  font-size: 5rem;
-}
-
-.Welcome__Container .Welcome h1:nth-child(3) {
-  color: gray;
-}
-
-.Welcome__Container .Welcome p {
-  margin-top: 1rem;
-  font-size: 1.5rem;
 }
 
 #AboutMe {
@@ -193,13 +159,16 @@ a:visited {
 
 #AboutMe .Content .Content__Left img {
   width: 300px;
-  border: 1px solid #dcdcdc;
+  border: 1px solid #ebebeb;
   border-radius: 50%;
 }
 
 #AboutMe .Content .Content__Left h1 {
-  font-size: 3rem;
   margin-top: 1rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #28a498;
 }
 
 #AboutMe .Content .Content__Right {
@@ -221,6 +190,9 @@ a:visited {
   margin-bottom: 3rem;
   padding-top: 6.5rem;
   font-size: 3rem;
+  font-size: 3.5rem;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #28a498;
 }
 
 #Portfolio .Portfolio__Content {
@@ -255,6 +227,9 @@ a:visited {
   margin-bottom: 3rem;
   padding-top: 6.5rem;
   font-size: 3rem;
+  font-size: 3.5rem;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #28a498;
 }
 
 #Resume .Resume__Frame {
@@ -279,6 +254,9 @@ a:visited {
   margin-bottom: 3rem;
   padding-top: 6.5rem;
   font-size: 3rem;
+  font-size: 3.5rem;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #28a498;
 }
 
 #Contact .Content {
@@ -291,32 +269,38 @@ a:visited {
 }
 
 #Contact .Content .btn-contact {
-  border: 1px solid #eee;
-  padding: 1rem 3rem;
+  border: 1px solid #ebebeb;
+  padding: 0.7rem 3rem;
   margin-top: 2rem;
   border-radius: 10px;
   font-size: 1.2rem;
   display: inline-block;
-  color: #5fb3ce;
-  border-color: #5fb3ce;
+  color: #28a498;
+  border-color: #28a498;
 }
 
 #Contact .Content .btn-contact:hover {
-  color: #eee;
-  border-color: #eee;
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  color: #e88262;
+  border-color: #e88262;
+  -webkit-transform: scale(1);
+          transform: scale(1);
   -webkit-transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+#Contact .Content .LinkedInLink {
+  color: #3d99f5;
+}
+
 #Footer {
   text-align: center;
-  margin-top: 420px;
+  position: absolute;
+  width: 100%;
+  bottom: 2rem;
 }
 
 #Footer p {
-  color: lightblue;
+  color: #ebebeb;
   margin-top: 0.35rem;
 }
 /*# sourceMappingURL=App.css.map */

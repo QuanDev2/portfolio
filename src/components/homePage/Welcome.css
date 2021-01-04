@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Open+Sans:wght@300;400&display=swap");
 * {
-  font-family: "Inter", sans-serif;
-  color: #dcdcdc;
-  background-color: #313131;
+  font-family: "Open Sans", sans-serif;
+  color: #ebebeb;
+  background-color: #222831;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
@@ -17,11 +16,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: #dcdcdc;
+  color: #ebebeb;
 }
 
 a:visited {
-  color: #dcdcdc;
+  color: #ebebeb;
 }
 
 .Welcome__Container .Welcome {
@@ -46,21 +45,45 @@ a:visited {
 
 .Welcome__Container .Welcome .Hi {
   font-size: 2rem;
-  color: #5fb3ce;
+  color: #ebebeb;
+  font-weight: 300;
 }
 
 .Welcome__Container .Welcome h1 {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 5rem;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #28a498;
 }
 
 .Welcome__Container .Welcome h1:nth-child(3) {
-  color: gray;
+  font-weight: 700;
+  color: #ebebeb;
 }
 
 .Welcome__Container .Welcome p {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.Welcome__Container .Welcome .btn-contact {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: 1px solid #ebebeb;
+  padding: 0.7rem 3rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  display: inline-block;
+  color: #28a498;
+  border-color: #28a498;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.Welcome__Container .Welcome .btn-contact:hover {
+  color: #e88262;
+  border-color: #e88262;
 }
 /*# sourceMappingURL=Welcome.css.map */

@@ -1,5 +1,4 @@
-@import '../config';
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700;900&display=swap');
+@import "../config";
 
 .Welcome__Container {
   .Welcome {
@@ -15,22 +14,46 @@
     // text styling
     .Hi {
       font-size: 2rem;
-
-      color: $color-accent-1;
-      // color: $color-accent-1;
+      color: $color-primary;
+      // font-family: $font-primary;
+      font-weight: 300;
     }
     h1 {
-      font-weight: 700;
+      font-weight: 900;
       font-size: 5rem;
-      font-family: 'Noto Sans KR', sans-serif;
-      // line-height: 5rem;
+      font-family: $font-secondary;
+      color: $color-accent-1;
       &:nth-child(3) {
-        color: gray;
+        font-weight: 700;
+
+        color: $color-primary;
+        // color: gray;
       }
     }
     p {
       margin-top: 1rem;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
+    }
+    .btn-contact {
+      // margin-top: 5rem;
+      align-self: center;
+      border: 1px solid $color-btn-bg;
+      padding: 0.7rem 3rem;
+      margin-top: 3rem;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      display: inline-block;
+      color: $color-accent-1;
+      border-color: $color-accent-1;
+      -webkit-transition: color 0.2s;
+      -moz-transition: color 0.2s;
+      -o-transition: color 0.2s;
+      -ms-transition: color 0.2s;
+      transition: color 0.2s;
+      &:hover {
+        color: $color-accent-2;
+        border-color: $color-accent-2;
+      }
     }
   }
 }
