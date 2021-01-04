@@ -8,7 +8,6 @@ function Header() {
   useEffect(() => {
     const controller = new AbortController();
     let ignore = false;
-
     const navItems = document.getElementsByClassName("NavItem");
     navItems[0].classList.add("active");
 
@@ -35,7 +34,7 @@ function Header() {
   return (
     <div className="Header">
       <div className="Logo">
-        <a href='#'>Quan Nguyen</a>
+        <a href='#HomePage'>Quan Nguyen</a>
       </div>
       <div className="Header_Items" >
         <ul>
