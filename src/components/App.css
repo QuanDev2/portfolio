@@ -34,19 +34,13 @@ a:visited {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0.5rem 3rem;
-}
-
-.Header .Logo a {
-  font-size: 2rem;
-  font-weight: 100;
-  font-family: "Noto Sans JP", sans-serif, sans-serif;
+  padding: 1rem 3rem;
 }
 
 .Header ul {

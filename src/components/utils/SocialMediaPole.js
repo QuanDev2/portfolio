@@ -10,16 +10,16 @@ function SocialMediaPole() {
     <div className="SocialMediaContainer">
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/quandev2/" target="_blank"><IconLinkedin /></a>
+          <a href="https://www.linkedin.com/in/quandev2/" target="_blank" rel="noreferrer"><IconLinkedin /></a>
         </li>
         <li>
-          <a href="https://github.com/QuanDev2/" target="_blank"><IconGitHub /></a>
+          <a href="https://github.com/QuanDev2/" target="_blank" rel="noreferrer"><IconGitHub /></a>
         </li>
         <li>
-          <a href="mailto:qnguyen.dev2@gmail.com" target="_blank"><IconGmail /></a>
+          <a href="mailto:qnguyen.dev2@gmail.com" target="_blank" rel="noreferrer"><IconGmail /></a>
         </li>
         <li>
-          <a href="https://twitter.com/QuanCfc17" target="_blank"><IconTwitter /></a>
+          <a href="https://twitter.com/QuanCfc17" target="_blank" rel="noreferrer"><IconTwitter /></a>
         </li>
       </ul>
 
