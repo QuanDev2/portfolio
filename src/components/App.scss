@@ -1,5 +1,5 @@
 // Imports
-@import "config";
+@import 'config';
 
 .app {
   position: relative;
@@ -67,7 +67,7 @@
     }
 
     li:last-child::after {
-      content: "";
+      content: '';
       display: block;
       width: 1px;
       height: 150px;
@@ -190,7 +190,7 @@
 
     p {
       margin-bottom: 1.2rem;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
     .btn-contact {
       border: 1px solid $color-btn-bg;

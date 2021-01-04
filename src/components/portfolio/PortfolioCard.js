@@ -1,11 +1,11 @@
 import React from 'react'
 import IconExternal from '../utils/icons/external'
 import IconGitHub from '../utils/icons/github'
-import './Portfolio__Card.css'
+import './PortfolioCard.css'
 
 
 
-function Portfolio__Card({ img, title, p1, p2, p3, githubLink, externalLink }) {
+function PortfolioCard({ img, title, p1, p2, p3, githubLink, externalLink }) {
   return (
     <div className="Portfolio__Card">
       <img src={img} alt="" />
@@ -15,12 +15,12 @@ function Portfolio__Card({ img, title, p1, p2, p3, githubLink, externalLink }) {
         <p>{p2}</p>
         <p>{p3}</p>
         <div className="Icons">
-          <a href={githubLink} target='_blank'>
+          <a href={githubLink} target='_blank' rel="noreferrer">
             <IconGitHub />
           </a>
           {
-            externalLink != "" &&
-            <a href={externalLink} target='_blank'>
+            externalLink !== "" &&
+            <a href={externalLink} target='_blank' rel="noreferrer">
               <IconExternal />
             </a>
           }
@@ -30,4 +30,4 @@ function Portfolio__Card({ img, title, p1, p2, p3, githubLink, externalLink }) {
   )
 }
 
-export default Portfolio__Card
+export default PortfolioCard

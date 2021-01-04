@@ -1,9 +1,9 @@
 import React from 'react'
-// import './Portfolio.css'
 import ImgFoodCard from '../../assets/project-foodcart.png'
 import ImgAirBnb from '../../assets/project-airbnb.png'
 import ImgTextbook from '../../assets/project-textbook.png'
-import Portfolio__Card from './Portfolio__Card'
+import ImgTeachIt from '../../assets/project-teachit.png'
+import PortfolioCard from './PortfolioCard'
 
 
 function Portfolio() {
@@ -11,7 +11,18 @@ function Portfolio() {
     <div id="Portfolio">
       <h1>Things I've built</h1>
       <div className="Portfolio__Content">
-        <Portfolio__Card
+        <PortfolioCard
+          img={ImgTeachIt}
+          title="Teach It"
+          p1="A web app that allows students to host webinars and share their knowledge with other students."
+          p2="My team and I built this application in 3 days in a Hackathon contest. The main idea behind the app is for students to reinforce what they've learned by teaching it back to other students via live webinars. This will provide invaluable live interactions between the hosts and the guests that other platform such as YouTube, Coursera, EdX, Udemy, etc. don't offer"
+          p3="I've learned a lot about React from this project. I myself also implemented authentication using JWT and protected routes.
+          Tech stack: React.js, Bootstrap, Node.js/ Express, MySQL
+          "
+          githubLink="https://github.com/A5-Wagyu/teach-it"
+          externalLink="https://teach--it.herokuapp.com/"
+        />
+        <PortfolioCard
           img={ImgFoodCard}
           title="Online Food Cart"
           p1="An online platform that allows users to buy or sell their own homecook meals"
@@ -20,7 +31,7 @@ function Portfolio() {
           githubLink="https://github.com/QuanDev2/food-cart"
           externalLink="https://online-food-cart.herokuapp.com/"
         />
-        <Portfolio__Card
+        <PortfolioCard
           img={ImgAirBnb}
           title="Air BednBreakfast"
           p1="My attempt to learn React.js by building an AirBnb clone landing page"
@@ -29,7 +40,7 @@ function Portfolio() {
           githubLink="https://github.com/QuanDev2/airbnb-clone"
           externalLink="https://air-bednbreakfast.herokuapp.com/"
         />
-        <Portfolio__Card
+        <PortfolioCard
           img={ImgTextbook}
           title="Textbook Buddy"
           p1="A Craigslist-like platform that enables students to buy and sell their used textbooks"

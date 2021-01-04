@@ -1,4 +1,4 @@
-@import "../config";
+@import '../config';
 
 .Welcome__Container {
   .Welcome {
@@ -15,7 +15,6 @@
     .Hi {
       font-size: 2rem;
       color: $color-primary;
-      // font-family: $font-primary;
       font-weight: 300;
     }
     h1 {
