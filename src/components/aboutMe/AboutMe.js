@@ -27,7 +27,7 @@ function AboutMe() {
           <Entry
             title="Tinkering Fanatic"
             p1="DIY is my hobby"
-            p2="I tinker with computers, cars, home improvement, woodworking, and more."
+            p2="I tinker with computers, RaspberryPi, cars, home improvement, woodworking, and more."
             p3="Other hobbies: cooking, gardening, soccer, swimming."
           />
         </div>

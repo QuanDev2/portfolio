@@ -33,9 +33,6 @@ function Header() {
 
   return (
     <div className="Header">
-      {/* <div className="Logo">
-        <a href='#HomePage'>Quan Nguyen</a>
-      </div> */}
       <div className="Header_Items" >
         <ul>
           <li><a href='#HomePage' className="NavItem">Home</a></li>
@@ -43,7 +40,6 @@ function Header() {
           <li><a href='#Portfolio' className="NavItem">Portfolio</a></li>
           <li><a href='#Resume' className="NavItem">Resume</a></li>
           <li><a href='#Contact' className="NavItem">Contact</a></li>
-          {/* <li><a href='#'>Blog</a></li> */}
         </ul>
       </div>
     </div>

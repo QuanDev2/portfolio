@@ -6,6 +6,8 @@ import Resume from './resume/Resume';
 import Contact from './contact/Contact';
 import Header from './utils/Header';
 import SocialMediaPole from './utils/SocialMediaPole';
+import EmailPole from './utils/EmailPole';
+import MobileNav from './utils/MobileNav';
 
 function App() {
   document.title = 'Quan Nguyen';
@@ -13,6 +15,10 @@ function App() {
     <div className="app">
       {/* Header */}
       <Header />
+
+      {/* Mobile nav bar */}
+      <MobileNav />
+
 
       {/* Social media pole */}
       <SocialMediaPole />

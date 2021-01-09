@@ -58,6 +58,18 @@ a:visited {
   font-weight: 600;
 }
 
+.MobileNav {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.MobileNav .HamburgerIcon {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
 .SocialMediaContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -97,7 +109,7 @@ a:visited {
 }
 
 .SocialMediaContainer ul li:last-child::after {
-  content: "";
+  content: '';
   display: block;
   width: 1px;
   height: 150px;
@@ -115,6 +127,16 @@ a:visited {
 
 .SocialMediaContainer .IconTwitter {
   fill: #1da1f3;
+}
+
+.EmailPole {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  color: #ebebeb;
+  position: fixed;
+  right: 2rem;
+  top: 10rem;
 }
 
 #AboutMe {
@@ -259,7 +281,7 @@ a:visited {
 
 #Contact .Content p {
   margin-bottom: 1.2rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 #Contact .Content .btn-contact {
