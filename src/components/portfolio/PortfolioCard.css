@@ -27,15 +27,14 @@ a:visited {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 70%;
+  width: 85%;
   margin-bottom: 2rem;
 }
 
 .Portfolio__Card img {
-  height: 200px;
-  width: 350px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
   margin-right: 2rem;
 }
 
@@ -78,4 +77,4 @@ a:visited {
 .Portfolio__Card .Icons .IconExternal {
   fill: #5fb3ce;
 }
-/*# sourceMappingURL=Portfolio__Card.css.map */
+/*# sourceMappingURL=PortfolioCard.css.map */

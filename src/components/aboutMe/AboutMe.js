@@ -13,15 +13,15 @@ function AboutMe() {
         </div>
         <div className="Content__Right">
           <Entry
-            title="Well-rounded Software Engineer"
-            p1="Passionate in building websites and full-stack web applications"
-            p2="Detail-oriented, keen eye for design, willing to learn new technologies"
-            p3="My favorite stack: React.js, Node.js, Express, and MySQL. Other programming languages that I'm familiar with: Python, C++, Java"
+            title="Well-rounded Full-stack Software Engineer"
+            p1="I can work across the stack, from building eye-catching responsive UI with React/ Redux, to building REST APIs with Node.js/ Express, to DevOps tasks such as deploying production apps on AWS, setting up CI/CD with GitHub Actions, etc."
+            p2=""
+            p3="My favorite stack: React.js/ Redux, Node.js, Express, and MySQL"
           />
           <Entry
             title="Dedicated Computer Science Student"
             p1="Senior student in Computer Science at Oregon State University. Go Beavs!"
-            p2="Focus in Web and Mobile Development Option"
+            p2="Focus in Web and Mobile Development"
             p3="I always try to maintain a high GPA and constantly expand the breadth and depth of my programming skills at the same time"
           />
           <Entry
